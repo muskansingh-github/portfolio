@@ -1,0 +1,12 @@
+.mid-con .con {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 110%;
+    left: 38.5%;
+    padding-right: 10%;
+  }
+  
+  .mid-con .con p {
+    font-size: 1.4rem;
+    font-weight: 200; 
+  }

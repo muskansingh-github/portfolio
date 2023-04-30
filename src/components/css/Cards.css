@@ -1,0 +1,21 @@
+/* body {
+    background-color: rgb(23, 23, 23);
+} */
+
+.pricing-container {
+    margin: 5% 10%;    
+}   
+
+.cards {
+    margin: 0 5%;
+    text-align: center;
+    color: #fff;
+} 
+
+.section {
+    display: flex;  
+}
+
+.project-card-view {
+    background-color: #fff; 
+}
