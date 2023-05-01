@@ -22,17 +22,17 @@ function Aboutpage() {
                 <div> 
                   <h1 className="text-center font-bolder mt-8 mb-8">SKILLS</h1>
                   <div className="text-center">
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">HTML5</a>
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">CSS3</a>
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">JavaScript</a>
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">React Js</a>
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">BootStrap</a>
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">Tailwind CSS</a>
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">Node Js</a>
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">Mongo DB</a>
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">C++</a>
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">Python</a>
-                  <a className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">Linux</a>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">HTML5</button>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">CSS3</button>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">JavaScript</button>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">React Js</button>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">BootStrap</button>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">Tailwind CSS</button>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">Node Js</button>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">Mongo DB</button>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">C++</button>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">Python</button>
+                  <button className='border-2 m-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg' href="#">Linux</button>
                 </div>
                 </div>
             </Container>
