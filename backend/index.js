@@ -8,9 +8,9 @@ express.urlencoded({ extended: true })
 app.use(cors());
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/mydb", {
+  .connect("mongodb+srv://04singhmuskan:muskan@cluster0.ul4bo8j.mongodb.net/mydb", {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
+    useUnifiedTopology: true, 
   })
   .then(() => console.log("Connection Successful!"))
   .catch((err) => console.log(err));
