@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const app = express();
 app.use(express.json());
-app.use(express.urlencoded());
+express.urlencoded({ extended: true }) 
 app.use(cors());
 
 mongoose
@@ -13,7 +13,7 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => console.log("Connection Successful!"))
-  .catch(() => console.log(err));
+  .catch((err) => console.log(err));
 
 const userSchema = new mongoose.Schema({
   name: String,
@@ -34,13 +34,13 @@ app.post("/contact", (req, res) => {
 }); 
 
   user.save();
-  res.send({ message: "Data Saved!" });
+  res.send({ message: "Data Saved!" }); 
 });
 
 app.get("/download", function (req, res) {
   res.download("./Muskan Singh's CV.pdf");
 });
 
-app.listen(9002, () => {
+app.listen(process.env.PORT || 9002, () => {
   console.log("BE started at port 9002");
 });
