@@ -37,12 +37,6 @@ app.post("/contact", (req, res) => {
   res.send({ message: "Data Saved!" });
 });
 
-app.use(express.static(path.join(__dirname, "./build")));
-
-app.get("*", (req,res) => {
-  res.sendFile(path.join(__dirname, "./build/index.html")); 
-});
-
 app.get("/download", function (req, res) {
   res.download("./Muskan Singh's CV.pdf");
 });
