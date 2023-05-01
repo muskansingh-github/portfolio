@@ -40,9 +40,9 @@ function Contact() {
         email,
         description: desc,
       };
-      axios.post("http://localhost:9002/contact", user);
+      axios.post("https://portfolio-production-4c7f.up.railway.app/contact", user);
       setsubmit(true);
-    }
+    } 
   }
 
   return (
