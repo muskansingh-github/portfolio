@@ -16,7 +16,7 @@ function Home(){
             
             </div> 
             <div className="mt-8">
-            <a href="http://localhost:9002/download" className='border-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg'>DOWNLOAD CV</a> 
+            <a href="https://portfolio-production-4c7f.up.railway.app/download" className='border-2 no-underline bg-slate-300 p-2 font-Raleway text-gray-700 hover:text-black rounded-xl text-lg'>DOWNLOAD CV</a> 
             </div>
             <div className="ml-96">
             <h1 className="font-Raleway text-7xl text-center"> 
